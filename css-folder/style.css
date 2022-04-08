@@ -1,0 +1,885 @@
+.navigation-geo{
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(3, 131, 205);
+    position: fixed;
+    top: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 10px;
+    z-index: 2;
+    box-shadow: 0px 0px 40px  rgb(2, 3, 3) inset;
+
+}
+body{
+    background-color: rgb(233, 244, 249);
+}
+.back-img{
+    background-image: url(../images/Ushba\ und\ Elbrus.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+    position: relative;
+    box-shadow: inset 0px 0px 20px rgb(16, 159, 241);
+}
+.img-logo{
+    width: 150px;
+    color: blanchedalmond;
+}
+/* .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 800px;
+    position: fixed;
+    top: 0;
+    margin-left: 50px;
+    z-index: 1;
+} */
+.ul-navigation {
+    display: flex; 
+    align-items: center; 
+    padding-bottom: 12px;
+    
+}
+.li-navigation{
+    margin-right: 50px;
+    border: 3px solid  antiquewhite;
+    border-width: 2px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+.burger{
+    width: 40px;
+    height: 3px;
+    background-color: antiquewhite;
+    margin-bottom: 5px;
+}
+.bar-icon{
+    display: none;
+}
+.nav-text{
+    color: antiquewhite;
+    font-size: 15px;}
+.h1-title{
+    color: rgb(233, 225, 201);
+    font-size: 80px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 480px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.h2-title{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    padding-left: 10px;
+    font-family: 'Roboto Slab', serif;
+    border-left:  solid 5px rgb(3, 120, 114);
+    color: rgb(3, 46, 120);
+    font-weight: 700;
+}
+.destination-div{
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+.back-img-div-geo{
+    background-image: url(/images/kazbeg.JPG);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    border: solid 5px  rgb(96, 141, 6);
+    opacity: 0.5;     
+}
+.back-img-div-arm{
+    background-image: url(/images/arm2.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border: solid 5px rgb(189, 21, 54);
+    opacity: 0.5;   
+
+}
+.back-img-div-azer{
+    background-image: url(/images/azer.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 5px  rgb(90, 44, 44);
+    opacity: 0.5;   
+
+}
+.destinations{
+    width: 400px;  
+}
+.destination-title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: hsl(196, 69%, 29%);
+   width: 100%;
+   height: 100px;
+   font-size: 30px;
+}
+.gergien{
+    background-color: rgb(96, 141, 6);
+}
+.armenien{  
+    background-color: rgb(189, 21, 54);
+}
+.azerbaidschan{
+    background-color: rgb(90, 44, 44);
+}
+.destination-h3{
+    color: rgb(233, 225, 201);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border: solid 2px  rgb(233, 225, 201);
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+.section-home{
+    background-color: rgb(181, 204, 204);
+}
+.footer-div-wraper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(16, 159, 241);
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px 0px 80px  rgb(21, 23, 23) inset;
+}
+
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+
+}
+.mail, .phone,.copyright{
+    display: flex;
+}
+.copyright,.contact-footer,.sotial-icons,.fa-location-dot{
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+
+
+}
+.fa-mobile-retro, .fa-envelope, .fa-brands,.fa-location-dot{ 
+    margin-left: 20px;
+    margin-right: 10px;
+    color:  rgb(233, 225, 201);
+    font-size: 20px;
+}
+.fa-location-dot{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dot-adress{
+    align-items: center;
+}
+.fa-mobile-retro-adress,.fa-envelope-adress,.fa-location-dot-adress{
+    color: red;
+    font-size: 20px;
+}
+.fa-copyright{
+    color: rgb(194, 204, 204) ;
+    margin-right: 20px;
+
+}
+.sotial-icons{
+    margin-right: 40px;
+}
+.fa-mobile-retro{
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+/* kontakt page adress */
+.foter-text{
+    color:rgb(194, 204, 204);
+    margin-left: 10px;
+}
+.adress-footer{
+    margin-left: 1px;
+}
+.adres-text{
+    color: brown;
+    font-size: 20px;
+}
+.kontakt-section-wraper-div{
+    max-width: 1700px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+.adress-li{
+    margin-top: 1px;
+}
+.map-1{
+    width: 750px;
+    height: 450px;
+    margin-top: 50px;
+    border: solid 3px yellowgreen;
+}
+
+/* georgia-page */
+.back-img-georgia{
+    background-image: url(/images/Ushba\ und\ Elbrus.jpg);
+    width: 100%;
+    height: 400px;
+    background-position-y:  -100px;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 0px 0px 20px rgb(16, 159, 241);
+}
+.bady-tour-geo{
+    background-color: rgb(207, 234, 246);
+}
+.h1-georgia {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 120px;
+    font-size: 60px;
+    color: antiquewhite;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.tour-box{
+    width: 350px;
+    height: 250px;
+}
+.tour-container-small{
+    display: flex;
+   justify-content: space-around;
+    width: 1200px;
+    margin-top: 150px;
+}
+.tour-section{
+    max-width: 1500px;
+    /* width: 100%; */
+    margin: 0 auto;
+    margin-bottom: 250px;
+
+}
+.geo-section-div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1900px;
+    margin: 0 auto;
+    height: 1500px;
+}
+
+.tour-backgroung-img{
+    background-image: url(/images/geo.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    border: solid 5px    rgb(96, 141, 6); 
+}
+
+.tour-h4{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(114, 169, 5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 15px;
+  
+}
+.tour-h4-text{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(110, 3, 51);
+    font-size: 23px;
+    font-weight: 300;
+}
+.tour-footer{
+    position: static;
+}
+h5{
+    display: flex;
+}
+.h5-div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    color: black;
+}
+
+.fa-euro-sign{
+    margin-left: 3px;
+
+}
+.fa-solid{
+    color:  hsl(170, 39%, 12%);
+    font-size: 18px;
+}
+.tour-box-text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    color: hsl(170, 39%, 12%);
+    margin-left: 5px;
+}
+
+.div-chekcbox,.dauer-div,.filter-date-label,.filter-label{
+    padding-left: 15px;
+
+}
+.div-date,.dauer-div{
+    padding-left: 25px;
+}
+.dauer-div{
+    margin-top: 5px;
+}
+.div-date,.div-chekcbox,.dauer-div{
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.von{
+    margin-right: 10px;
+}
+.bis{
+    margin-right: 16px;
+}
+.unput-number{
+    width: 130px;
+    height: 35px;
+    background-color:rgb(221, 221, 221);
+    margin-right: 30px;
+
+}
+.filtre-button{
+    margin-top: 60px;
+    height: 50px;
+    background-color:  rgb(105, 173, 3);
+    width: 250px;
+    border-radius: 15px;
+    font-family:'Roboto', sans-serif; ;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.filtre-wraper{
+    width: 300px;
+    background-color: bisque;
+    position: sticky;
+    height: 1000px;
+    top: 67px;
+    background-color: rgb(228, 237, 235);
+    box-shadow: 0px 0px 80px  rgb(33, 145, 176) inset;
+
+    padding-left: 40px;
+}
+
+.navigation2-wraper{
+    width: 300px;
+    height: 1000px;
+    position: sticky;
+    top: 67px;
+    background-color: rgb(228, 237, 235);
+    box-shadow: 0px 0px 80px  rgb(33, 145, 176) inset;
+}
+.navigation2-wraper-bar{
+    position: sticky;
+    top: 67px;
+    max-width: 100px;
+    width: 100%;
+    background-color: brown;
+    height: 40px;
+   border-radius: 15%;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    display: none;
+
+}
+
+.navigation2-dest{
+    width: 100%;  
+
+    margin-top: 250px;
+}
+.navigation2-1{
+    width: 100%;
+    height: 60px;
+    background-color:  rgb(96, 141, 6);
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.navigation2-dest :nth-child(3){
+    background-color:   rgb(90, 44, 44);
+}
+.navigation2-dest :nth-child(2){
+    background-color: rgb(189, 21, 54);   
+}
+.nav-dest-active{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-2{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: brown;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    text-decoration: underline;
+}
+.navigation2{
+    text-align: center;
+    padding-top: 40px;
+}
+.section-cpntainer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+.filtre-div-geo{
+    display:flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 1000px;
+    width: 100%;
+    position: sticky;
+  
+}
+.filter-h3{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+    color: brown;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    
+}
+.filtre-titles{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: brown;
+    margin-top: 20px;
+  
+}
+.chek-div{
+    margin-bottom: 18px;
+}
+.filter-label{
+    color: rgb(1, 61, 91);
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+}
+/* tour-page */
+.beschreibung-div{
+    position: sticky;
+    top: 62px;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 8px;
+    align-items: center;
+    background-color: rgb(207, 234, 246);
+    color: blueviolet;
+    font-family: 'Roboto Slab', serif; 
+    font-size: 21px;
+}
+.fa-microphone,.fa-people-group,.fa-anchor-circle-check,.fa-calendar-days{
+    margin-right: 20px;
+    color: rgb(255, 0, 149);
+}
+.overwiev-titles{
+    margin-top: 20px;
+}
+.h1-geo{
+    width: 900px;
+    margin-top: 120px;
+    font-size: 60px;
+}
+.divider{
+    width: 2px;
+    height: 30px;
+    background-color: blue;
+}
+
+.tour-container{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.dauer{
+    display: flex;
+    align-items: center;
+}
+.overwiev-container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    color: blue;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 18px;
+}
+.owerview-title{
+    font-size: 16px;
+    margin-top: 5px;
+    color: rgb(101, 3, 22);
+}
+.heighleit-div{
+    margin-top: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.ul-heinghleit{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+
+}
+.li-heinghleit{
+    margin-bottom: 10px;
+}
+.overwiev-titles{
+    margin-bottom: 20px;
+    margin-top: 35px;
+    font-family: 'Roboto Slab', serif; 
+    color: blueviolet;
+    font-size: 22px;
+    border-bottom:  solid  blueviolet 2px;
+}
+.tourday-text-font{
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5;
+}
+.tourday-heighleit{
+    font-family: 'Roboto Slab', serif;   
+     font-weight: 300;
+    color: rgb(106, 49, 2);
+}
+.tour-day-bottom{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+.owerwiev-text{
+    width: 100%;
+    margin: 0 auto;
+}
+.img-tourday{
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tour-day{
+    width: 100%;
+    border-bottom: solid 5px ;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.tour-day-h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.tourday-text{
+    margin-bottom: 20px;
+}
+.tour-day-bottom{
+    margin-bottom: 15px;
+}
+.included-div{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    padding-left: 34px;
+    font-weight: 400;
+}
+.ul-included{
+    list-style: circle;
+    margin-top: 20px;
+}
+.termine-wraper{
+    display: flex;
+    background-color: rgb(224, 224, 216);
+    border-bottom: solid 2px ;
+    border-top: solid 2px;
+    border-left:solid 2px;
+    border-right: solid 2px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+}
+.termine,.preis,.fa-square-check,.batton-buchen{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 17px;
+}
+.fa-circle-xmark,.mark-yes,.mark-wenig{
+    font-size: 30px;
+
+}
+.mark-no{
+    color: rgb(220, 30, 30);
+}
+.mark-yes{
+    color: rgb(141, 225, 16);
+}
+.mark-wenig{
+    color: rgb(183, 183, 3);
+}
+.termine-container{
+    margin-top: 20px;
+
+}
+
+.buchen{
+    display: flex;
+    flex-direction: column;
+    padding-right: px;
+}
+.batton-buchen{
+    margin-bottom: 3px;
+    width: 150px;
+    height: 40px;
+   
+}
+.buchen-buchen{
+    background-color: rgb(81, 200, 81);
+}
+.buchen-nachricht{
+    background-color: yellow;
+    font-size: 15px;
+}
+.bewertungen{
+    margin-top: 40px;
+}
+.bewertungen-title{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.bewertungen-h3{
+    font-size: 25px;
+}
+.tour-page-filtre{
+    margin-top: 10px;
+}
+/* about page */
+.coworcers-container{
+    margin-bottom: 150px;
+}
+.company{
+    display: flex;
+    max-width: 1500px;
+    width: 100%;
+    justify-content: space-between;
+    margin:0 auto ;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-bottom: solid 5px yellowgreen;
+}
+.mission-p{
+    width: 500px;
+    font-size: 17px;
+}
+.company-img{
+    width: 300px;
+}
+.companyimg{
+    width: 100%;
+    border-radius: 50%;
+}
+.coworcer{
+    width: 250px;
+    text-align: center;
+}
+.about-coworcer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.about-coworcer1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+.coworcers-wraper{
+   padding-bottom: 60px;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto; 
+}
+/* buchen-page */
+
+.body-buchen{
+    padding-top: 280px;
+}
+.back-img-georgia-buchen{
+    width: 100%;
+    height: 200px;
+}
+.section-wraper-div{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 150px;
+}
+.name-div{
+    display: flex;
+    justify-content: space-between;
+}
+.mail-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-one{
+    width: 900px;
+}
+.input-form{
+    width: 430px;
+    
+}
+.input-one,.input-form{
+    height: 50px;
+     margin-bottom: 20px;
+
+}
+.formular-titel{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: brown;
+}
+.formular-names{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+    color: brown;
+    font-size: 17px;}
+.button-senden{
+    display: flex;
+    justify-content: right;
+    background-color: green;
+    color: brown;
+    width: 200px;
+    height: 60px;
+}
+
+.form-div-right-p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    color: brown;
+    margin-top: 10px;
+}
+.form-div-right-h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    color: brown;
+    margin-bottom: 25px; 
+}
+.kontakt-section-wraper-div{
+    max-width: 1700px;
+    width: 100%;
+}
+
+
+/* foto-blog-page */
+.container-fotoblog-small{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 130px;
+  
+}
+.container-fotoblog{
+ margin-top: 100px;
+ margin-bottom: 250px;
+}
+.foto-blog-box{
+    max-width: 700px;
+    width: 100%;
+    height: 400px;
+}
+.back-img-blog{
+    background-image: url(/images/gomimta.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.title-h4{
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+/* tour-page */
+
