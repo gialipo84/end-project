@@ -17,7 +17,7 @@ body{
     background-color: rgb(233, 244, 249);
 }
 .back-img{
-    background-image: url(../images/Ushba\ und\ Elbrus.jpg);
+    background-image: url(./images/Ushba\ und\ Elbrus.jpg);
     width: 100%;
     height: 800px;
     background-size: cover;
