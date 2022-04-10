@@ -865,7 +865,7 @@ h5{
     height: 400px;
 }
 .back-img-blog{
-    background-image: url(/images/gomimta.jpg);
+    background-image: url(../images/gomimta.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
