@@ -21,7 +21,16 @@
         display: none;
     }
     .ul-navigation{
+        display: flex;
+        flex-direction: column;
         display: none;
+    }
+    .ul-navigation.active-ul{
+        display: block;
+    }
+    .navigation-geo{
+        display: flex;
+        flex-direction: column;
     }
     .h1-title{
         font-size: 40px;
@@ -29,6 +38,7 @@
     .bar-icon{
         display: block;
     }
+
    
   
 }
